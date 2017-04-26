@@ -11,13 +11,24 @@ This is valuable as changes may need to be done across multiple files and this a
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+Use the command git diff to compare staging area to working directory allows the user to see all changes across multiple files before making a commit.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+When the programmer is looking to adapt the program for a different purpose (different language, different OS, easy mode of a game, etc).
+Branches help by allowing the adaptation to occur without affecting the original purpose. 
+
 How do the diagrams help you visualize the branch structure?
+
+Diagrams are flow based and allow a user to see a map of how the commits link.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+The result is the combination of deletions and insertions made on each branch. The commit order still follow each branch toward the common merge point.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+Git is able to resolve the sections that have been added or deleted automatically. Git also creates a conflict when sections have been updated to allow for manual resolution.
