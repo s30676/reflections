@@ -5,6 +5,9 @@ There are no commits at the time of initialising.
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+The staging area is where changes can be stored prior to a commit using the git add command.
+This is valuable as changes may need to be done across multiple files and this allows them to be added to staging one by one before the commit.
+
 How can you use the staging area to make sure you have one commit per logical
 change?
 
